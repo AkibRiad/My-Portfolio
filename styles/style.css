@@ -66,6 +66,38 @@ background-repeat: no-repeat;
 background-position: top left,bottom right;
 
 }
+.sec-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.sec-p{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.about{
+    border-radius: 10px;
+
+background: rgb(218, 189, 168);
+width: 1100px;
+margin: auto;
+padding: 130px 150px;
+margin-top: 130px;
+margin-bottom: 130px;
+
+
+}
+
 .btn1{
     box-sizing: border-box;
 border: 1px solid rgb(253, 110, 10);
@@ -116,4 +148,14 @@ margin-right: 38px;
 }
 .banner .d1{
     margin-left: 200px;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+.puchkubox{
+    box-sizing: border-box;
+border: 1px solid rgb(0, 0, 0);
+background: rgb(255, 255, 255);
 }
