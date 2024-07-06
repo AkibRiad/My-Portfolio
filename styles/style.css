@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* *{
+    background: rgb(255, 248, 243);
+} */
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+    
+}
+.dark2{
+    color: rgb(71, 71, 71);
+}
+nav>ul>li{
+    display: inline;
+    margin-right: 51px;
+
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+span{
+    color: thistle;
+}
+.btn{
+    border-radius: 5px;
+    font-family: Open Sans;
+background: rgb(253, 110, 10);
+color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+padding: 5px;
+}
+.ove{
+    background-image: url('../portfolio-resources/images/developer.png'), url('../portfolio-resources/images/header_bg.png');
+    color: rgba(22, 153, 185, 0.582);
+    font-family: Open Sans;
+font-size: 50px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 23%;
+text-align: left;
+background-repeat: no-repeat;
+background-position: top left,bottom right;
+
+}
+.btn1{
+    box-sizing: border-box;
+border: 1px solid rgb(253, 110, 10);
+border-radius: 5px;
+height: 38px;
+width: 120px;
+
+    border: 1.5px solid rgb(253, 110, 10);
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner button{
+    margin-right: 20px;
+}
+.banner .p1{
+    color: rgb(71, 71, 71);
+font-size: 45px;
+font-weight: 600;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner h1{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 85px;
+font-weight: 700;
+line-height: 116px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner p{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.img{
+width: 584px;
+height: 676px;
+margin-right: 38px;
+
+}
+.banner .d1{
+    margin-left: 200px;
+}
