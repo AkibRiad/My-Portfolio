@@ -159,3 +159,36 @@ margin-right: 38px;
 border: 1px solid rgb(0, 0, 0);
 background: rgb(255, 255, 255);
 }
+.tstart .head{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+
+}
+.tstart .para{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+width: 900px;
+text-align: center;
+padding-left: 550px;
+
+}
+.exp{
+    display: flex;
+    justify-content: space-around;
+}
+.exp .java{
+    height:190px;
+    margin: 50px 50px 50px 50px;
+
+}
+.tstart{
+    text-align: center;
+}
